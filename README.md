@@ -319,6 +319,7 @@ Output pada gambar di atas  menunjukkan riwayat transaksi perpustakaan yang dita
 Output tersebut menunjukkan bahwa pengguna memilih menu 13, yaitu fitur untuk mengembalikan buku yang telah dihapus. Program berhasil menjalankan proses pengembalian buku, ditandai dengan pesan “Buku yang dihapus berhasil dikembalikan.”
 
 **Keluar**
+
 <img width="507" height="400" alt="image" src="https://github.com/user-attachments/assets/3a599cd0-352f-4b3f-a136-6ec625b9c286" />
 
 Pengguna memilih menu 0 maka program selesai.
