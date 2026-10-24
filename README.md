@@ -249,20 +249,80 @@ Dengan penerapan Queue, program dapat menyimulasikan sistem pelayanan mahasiswa 
 ## Alur Program
 
 **Tampilan Menu Utama**
+<img width="238" height="275" alt="image" src="https://github.com/user-attachments/assets/6e4bd76e-84f0-4f0f-b5fe-b60793e9525a" />
+
+Ini adalah Tampilan Pertama atau menu utama saat pertama kali menjalankan program
+
 **Lihat Kategori Buku**
+<img width="233" height="127" alt="image" src="https://github.com/user-attachments/assets/5c03d30b-73e8-49db-a2f3-cc0cc7c56f06" />
+
+Pada menu 1 yaitu melihat kategori buku yang ada apa saja dan dapat di lihat pada gambar kita memiliki 4 kategori buku yaitu Pemograman, Matematika, Jaringan Komputer , dan Basis Data.
+
 **Tambah Buku**
+<img width="302" height="187" alt="image" src="https://github.com/user-attachments/assets/d1164e97-469f-4a9a-98ca-8dcbe0ec8a60" />
+
+Pada menu 2 kita melakukan proses penambahan buku baru ke dalam sistem perpustakaan. Pengguna memulai dengan memasukkan ID buku 75, judul Belajar Fundamental Python, dan penulis Suki Skom. Setelah itu, sistem menampilkan daftar kategori buku dan pengguna memilih kategori Pemrograman dengan memasukkan angka 1. Program kemudian menampilkan pesan “Buku berhasil ditambahkan.”, yang menandakan bahwa data buku berhasil dimasukkan ke dalam koleksi ArrayList.
+
 **Tampilkan Buku**
+<img width="310" height="405" alt="image" src="https://github.com/user-attachments/assets/9815182e-e4df-4ec9-a139-9555950f167d" />
+
+Menu 3 kita akan melihat daftar buku yang sudah terdaftar apa saja dalam perpustakaan.
+
 **Hapus Buku**
+<img width="272" height="338" alt="image" src="https://github.com/user-attachments/assets/f981e61d-5fa3-4ab8-8a12-60df28501e2b" />
+
+Pada menu 4, pengguna memasukkan ID buku 75 yang ingin dihapus. Sistem menampilkan pesan “Buku berhasil dihapus.” yang menandakan bahwa buku dengan ID tersebut berhasil dihapus dari koleksi ArrayList. Setelah proses selesai, program kembali menampilkan menu utama agar pengguna dapat memilih fitur lainnya.
+
 **Catat Peminjaman**
+<img width="284" height="289" alt="image" src="https://github.com/user-attachments/assets/8bdb690c-a406-4d9e-8567-d5ab88e7c9cb" />
+
+Pada menu 5, pengguna kemudian memilih kategori buku Pemrograman dengan memasukkan angka 1 dan memilih hari Kamis dengan memasukkan angka 4. Sistem menampilkan pesan “Peminjaman berhasil dicatat.”, yang berarti jumlah peminjaman pada kategori Pemrograman untuk hari Kamis berhasil bertambah satu pada data Array 2D.
+
 **Lihat Statistik Peminjaman**
+<img width="663" height="174" alt="image" src="https://github.com/user-attachments/assets/e0f0df99-477b-47d5-b5ec-8d688120b989" />
+
+Menu 6 ialah untuk melihat data peminjaman buku yang sudah terdaftar pada perpustakaan berapa dan hari apa serta kategori buku yang di pinjam apa saja dan berapa jumlahnya.
+
 **Atur Lokasi Buku**
+<img width="250" height="107" alt="image" src="https://github.com/user-attachments/assets/eaa404e7-8c61-4443-9cbd-59df5f91165e" />
+
+Saat Pengguna memilih menu 7, kemudian memasukkan ID buku 103, lantai 2, rak 2, dan posisi 4. Sistem menampilkan pesan “Lokasi buku berhasil diatur.”, yang menandakan bahwa lokasi penyimpanan buku berhasil ditetapkan menggunakan Array 3D berdasarkan lantai, rak, dan posisi.
+
 **Lihat Lokasi Buku**
+<img width="227" height="604" alt="image" src="https://github.com/user-attachments/assets/464356be-7801-48b8-ba33-5d36b13b7116" />
+
+Output gambar di atas yaitu menu 8 menunjukkan daftar lokasi penyimpanan buku berdasarkan lantai, rak, dan posisi. Sistem menampilkan ID buku yang menempati lokasi tertentu, seperti buku ID 101 di lantai 1 rak 1 posisi 1, ID 102 di lantai 1 rak 2 posisi 3, dan ID 103 di lantai 2 rak 2 posisi 4. Sementara itu, posisi yang belum ditempati ditampilkan sebagai “Kosong”. Data lokasi ini dikelola menggunakan Array 3D.
+
 **Tambah Antrian Mahasiswa**
+<img width="212" height="72" alt="image" src="https://github.com/user-attachments/assets/33d34762-311a-4bc7-975d-c2ba5c685709" />
+
+Pengguna memilih menu 9, kemudian memasukkan nama mahasiswa, yaitu Abdul. Sistem menampilkan pesan “Mahasiswa masuk antrean.” yang menandakan bahwa Abdul berhasil ditambahkan ke dalam antrean menggunakan struktur data Queue (FIFO), sehingga mahasiswa dilayani berdasarkan urutan kedatangan.
+
 **Lihat Antrian Mahasiswa**
+<img width="227" height="117" alt="image" src="https://github.com/user-attachments/assets/0dd7f9fd-bc20-4ec7-8da9-298e4db255f6" />
+
+Menu 10 ialah untuk melihat daftar anntrian nama mahasiswa yang ingin meminjam buku di perpustakaan siapa saja.
+
 **Layani Antrian**
+<img width="260" height="305" alt="image" src="https://github.com/user-attachments/assets/0015dc43-c186-49e5-aef0-7311c3b3ee37" />
+
+Output gambar di atas menunjukkan proses pelayanan antrean mahasiswa, saat memilih menu 11 Sistem menampilkan “Melayani mahasiswa: Ahmad”, yang berarti Ahmad dilayani terlebih dahulu karena masuk paling awal dalam antrean. Proses ini menerapkan prinsip Queue (FIFO), yaitu mahasiswa yang masuk lebih dahulu akan dilayani lebih dahulu.
+
 **Lihat Riwayat Transaksi**
+<img width="296" height="128" alt="image" src="https://github.com/user-attachments/assets/22eea592-356d-4d17-831b-2a86995dcc67" />
+
+Output pada gambar di atas  menunjukkan riwayat transaksi perpustakaan yang ditampilkan ketika pengguna memilih menu 12. Riwayat mencatat aktivitas penambahan dan penghapusan buku, seperti buku Belajar Fundamental Python, Matematika Diskrit, dan Belajar Java. Transaksi ditampilkan dari yang terbaru hingga yang paling lama. Fitur ini menerapkan struktur data Stack (LIFO), yaitu transaksi terakhir yang masuk akan ditampilkan terlebih dahulu.
+
 **Batalkan Transaksi Terakhir**
+<img width="348" height="295" alt="image" src="https://github.com/user-attachments/assets/62f39c8b-3d91-4fe7-9aec-9c924c754e6c" />
+
+Output tersebut menunjukkan bahwa pengguna memilih menu 13, yaitu fitur untuk mengembalikan buku yang telah dihapus. Program berhasil menjalankan proses pengembalian buku, ditandai dengan pesan “Buku yang dihapus berhasil dikembalikan.”
+
 **Keluar**
+<img width="507" height="400" alt="image" src="https://github.com/user-attachments/assets/3a599cd0-352f-4b3f-a136-6ec625b9c286" />
+
+Pengguna memilih menu 0 maka program selesai.
+
 
 ## Kesimpulan Program
 Sistem Manajemen Perpustakaan Kampus merupakan program pembelajaran Java yang menggabungkan konsep OOP, arsitektur MVC, input menggunakan Scanner, serta enam jenis struktur data. Setiap struktur data digunakan untuk kebutuhan yang berbeda, mulai dari penyimpanan kategori dan statistik peminjaman hingga pengelolaan koleksi buku, lokasi penyimpanan, riwayat transaksi, dan antrean mahasiswa.
